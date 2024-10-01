@@ -14,8 +14,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.4</version> <!-- Stable version -->
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>3.3.4</version> 
+        <relativePath/> 
     </parent>
 
     <dependencies>
@@ -50,14 +50,14 @@
             <version>0.9.1</version>
         </dependency>
 
-        <!-- H2 Database -->
+        
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Spring Boot Starter Test for JUnit 5 -->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -74,7 +74,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version> <!-- Aktualisiere dies auf die neueste stabile Version -->
+                <version>3.0.0-M5</version> 
             </plugin>
         </plugins>
     </build>
